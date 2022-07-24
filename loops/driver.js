@@ -540,7 +540,7 @@ function addOffline(num) {
 function toggleOffline() {
     if (totalOfflineMs === 0) return;
     if (bonusSpeed === 1) {
-        bonusSpeed = 50;
+        bonusSpeed = 500;
         document.getElementById("isBonusOn").textContent = _txt("time_controls>bonus_seconds>state>on");
     } else {
         bonusSpeed = 1;

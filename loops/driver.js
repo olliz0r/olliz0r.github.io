@@ -529,7 +529,7 @@ function addOffline(num) {
         if (totalOfflineMs + num < 0 && bonusSpeed > 1) {
             toggleOffline();
         }
-        totalOfflineMs += num;
+        totalOfflineMs = 2678400000;
         if (totalOfflineMs < 0) {
             totalOfflineMs = 0;
         }
